@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asclepio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+</head>
+
+<body style="background-color:#acc0da;">
+
+  <header>
+
+    <div class="container1 mx-auto " style=" margin-top: 50px; font-size: 25px; padding: 20px; ">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container2 position-absolute top-0 start-50 translate-middle ">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav"  >
+            
+            <ul class="navbar-nav" style="display: flex; gap: 130px;">
+              <div>
+              <li class="nav-item rounded-pill " style="background-color: #3867a5; letter-spacing: normal;">
+                <a class="nav-link " href="#">Inicio</a>
+              </li>
+            </div>
+            <div>
+              <li class="nav-item rounded-pill" style="background-color: #3867a5;">
+                <a class="nav-link" href="#">Comic</a>
+              </li>
+            </div>
+            <div>
+              <li class="nav-item rounded-pill" style="background-color: #3867a5;">
+                <a class="nav-link" href="#">Integrantes</a>
+              </li>
+            </div>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="main" id="main" style=" background-color: #acc0da">
+    <div class="container p-3">
+      <div class="row mt-5 p-3 shadow rounded-start-5">
+        <div class="col-md-6">
+          <img class="img-INICIAL img-fluid rounded" src="img/img1.jpg" alt="">
+        </div>
+        <div class="col-md-6 mt-5 p-5" style="text-align: center;">
+          <h1>Objetivo</h1>
+          <p>El objetivo del proyecto Asclepio es dar información a los jóvenes de cómo tratar a las personas
+            con esta discapacidad auditiva, ya que muchas tienen miedo de tratar con este tipo de personas
+            por su discapacidad porque no saben cómo hacerlo de manera correcta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrusel" id="carrusel">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5 p-3">
+
+          <h1 class="letra p-3 mt-5" style="text-align: center;">comic</h1>
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/TARJET.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/TAR.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/TARJE.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5 p-3 text-center">
+          <h1 class="Galery">Personajes</h1>
+          <p id="Texto" class="Text">personaje 1</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center  mt-5 p-3">
+          <img id="todo" class="todo img-fluid" src="img/lila.png" style="width: 350px; height: 350px;">
+          
+        </div>
+        <div class="col-12 text-center  mt-5 p-3">
+          <div class="Video" style="width: auto; height: auto;">
+            <img class="uno" src="img/lila.png" alt="" onclick="cambiar()" ondblclick="trt()" style="width: 100px; height: 100px;">
+            <img class="dos" src="img/hawk.png" alt="" onclick="cambiar2()" ondblclick="trt2()" style="width: 100px; height: 100px;">
+            <img class="tres" src="img/glossyck.png" alt="" onclick="cambiar3()" ondblclick="trt3()"  style="width: 100px; height: 100px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="caja" id="caja">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-5 p-3">
+          <div class="alexa">
+            <img id="ale" class="rojas img-fluid" src="./img/foto alexa (1).png"
+              onclick="mostrarAlert('alexa','Edad: 17. Descripción: amable, responsable y paciente. Cargo: creadora del proyecto')">
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 p-3">
+          <div class="Samuel">
+            <img id="sam" class="patiño img-fluid" src="./img/foto samuel (1).png"
+              onclick="mostrarAlert('Samuel','Edad: 17. Descripcion: tranquilo, paciente, y dedicado. Cargo: creador del proyecto')">
+          </div>
+        </div>
+        <div class="col-md-4 mt-5 p-3">
+          <div class="juan">
+            <img id="jose" class="Rodriguez img-fluid" src="./img/foto juan.png"
+              onclick="mostrarAlert('juan jose','Edad: 17. Descripción:Inteligente, tranquilo y dedicado. Cargo: Ilustración')">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="alertBox" class="alert">
+            <div class="alert-contenedor">
+              <h1 id="alertTitulo" class="titulo"></h1>
+              <p id="alertMensaje" class="texto"></p>
+              <br>
+              <button class="alert-button" onclick="cerrarAlert()">cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="redes">
+        <div class="icono1">
+          <input type="button" class="wpp">
+          <div class="linksn">
+            <a href="">304 6078142</a>
+          </div>
+        </div>
+        <div class="icono2">
+          <input type="button" class="insta">
+          <div class="linksi">
+            <a href="">Asclepio_as</a>
+          </div>
+        </div>
+        <div class="icono3">
+          <input type="button" class="gmail">
+          <div class="links">
+            <a href="">asclepio_as@</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="ASCLEPIO.JS"></script>
+
+
+
+</body>
+
+</html>
